@@ -25,7 +25,7 @@
 		
 	```
 	var name = "SeedKun"
-	console.log(`変数nameの中身：{name}`);
+	console.log(`変数nameの中身：${name}`);
 	```
 		
 	</div></details>
