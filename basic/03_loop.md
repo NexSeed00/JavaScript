@@ -5,7 +5,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 10; i++) {
+	for (let i = 1; i <= 10; i++) {
 	    console.log("hoge");
 	}
 	```
@@ -20,7 +20,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 10; i++) {
+	for (let i = 1; i <= 10; i++) {
 	    console.log(i);
 	}
 	```
@@ -35,7 +35,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 9; i++) {
+	for (let i = 1; i <= 9; i++) {
 	    console.log(2 * i);
 	}
 	```
@@ -50,7 +50,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 		if (i % 2 == 0) {
 	        console.log(i);
 		}
@@ -68,7 +68,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 		if (i % 2 == 0) {
 	        console.log(i);
 	    } else {
@@ -87,7 +87,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 	    if (i % 3 == 0) {
 	        console.log(i);
 	    }
@@ -104,7 +104,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 	    if (i % 5 == 0) {
 	        console.log(i);
 	    }
@@ -121,7 +121,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 	    if (i % 3 == 0 && i % 5 == 0) {
 	        console.log(i);
 	    }
@@ -139,7 +139,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 	    if (i % 3 == 0) {
 	        console.log("Fizz");
 	    } else {
@@ -158,7 +158,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var i = 1; i <= 100; i++) {
+	for (let i = 1; i <= 100; i++) {
 	    if (i % 3 == 0 && i % 5 == 0) {
 	        console.log("FizzBuzz");
 	    } else if (i % 3 == 0) {

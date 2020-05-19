@@ -2,7 +2,7 @@
 
 41. 以下のような連想配列を作成してください。  
 
-	変数名: alphabet
+	定数名: alphabets
 	
  | キー | 値  |
  | ---- | --- |
@@ -14,7 +14,12 @@
   <details><summary>回答例</summary><div>
 		
 	```
-	var alphabet = {"a": "A", "b": "B", "c": "C", "d": "D"};
+	const alphabets = {
+		'a': 'A',
+		'b': 'B',
+		'c': 'C',
+		'd': 'D'
+	};
 	```
 		
   </div></details>
@@ -31,7 +36,7 @@
   <details><summary>回答例</summary><div>
 		
 	```
-	alphabet["e"] = "E";
+	alphabets['e'] = 'E';
 	```
 		
   </div></details>
@@ -49,7 +54,7 @@
   <details><summary>回答例</summary><div>
 		
 	```
-	alphabet["a"] = "AAA";
+	alphabets['a'] = 'AAA';
 	```
 		
   </div></details>
@@ -66,7 +71,7 @@
   <details><summary>回答例</summary><div>
 		
 	```
-	delete alphabet["b"];
+	delete alphabets['b'];
 	```
 		
   </div></details>
@@ -79,7 +84,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
+	for (const key in alphabets) {
 	    console.log(key);
 	}
 	```
@@ -96,8 +101,8 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
-	    console.log(alphabet[key]);
+	for (let key in alphabets) {
+	    console.log(alphabets[key]);
 	}
 	```
 		
@@ -111,8 +116,8 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
-	    console.log(key + ":" + alphabet[key]);
+	for (let key in alphabets) {
+	    console.log(key + ':' + alphabets[key]);
 	}
 	```
 		
@@ -127,9 +132,9 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
-	    if (key != "c") {
-	        console.log(key + ":" + alphabet[key]);
+	for (let key in alphabets) {
+	    if (key != 'c') {
+	        console.log(key + ':' + alphabets[key]);
 	    }
 	}
 	```
@@ -145,9 +150,9 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
-	    if (alphabet[key] != "B") {
-	        console.log(key + ":" + alphabet[key]);
+	for (let key in alphabets) {
+	    if (alphabets[key] != 'B') {
+	        console.log(key + ':' + alphabets[key]);
 	    }
 	}
 	```
@@ -163,9 +168,9 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	for (var key in alphabet) {
-	    if (key != "b" && alphabet[key] != "C") {
-	        console.log(key + ":" + alphabet[key]);
+	for (let key in alphabets) {
+	    if (key != 'b' && alphabets[key] != 'C') {
+	        console.log(key + ':' + alphabets[key]);
 	    }
 	}
 	```

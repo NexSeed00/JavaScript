@@ -5,7 +5,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	console.log("Hello World");
+	console.log('Hello World');
 	```
 		
 	</div></details>
@@ -13,7 +13,7 @@
 
 	<br>
 
-2. 変数nameに「SeedKun」を代入し、作成した変数nameを使って以下のように表示するプログラムを作成してください。
+2. 変数nameに「SeedKun」を代入し、作成した変数nameと文字を繋げて以下のように表示するプログラムを作成してください。
 
 	出力結果
 		
@@ -24,7 +24,11 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	var name = "SeedKun"
+	let name = "SeedKun"
+	console.log('変数nameの中身：' + name);
+
+	もしくは
+
 	console.log(`変数nameの中身：${name}`);
 	```
 		
@@ -38,8 +42,8 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	var lastName = "山田";
-	var firstName = "太郎";
+	let lastName = "山田";
+	let firstName = "太郎";
 	console.log(lastName + firstName);
 	```
 		
@@ -48,85 +52,79 @@
 	<br>
 
 	
-4. 変数 x、y に数値 10、2 を代入し、x、yの和を計算し、結果を表示してください。
+4. 変数 a に数値 10、変数 b に数値 2 を代入し、a、bの和を計算し、結果を表示してください。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 10;
-	var y = 2;
-	console.log(x + y);
+	let a = 10;
+	let b = 2;
+	console.log(a + b);
 	```
 		
 	</div></details>
 	
 	<br>
 	
-5. 変数 x、y に数値 10、2 を代入し、x、yの差を計算し、結果を表示してください。
+5. 4で定義したa、bの差を計算し、結果を表示してください。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 10;
-	var y = 2;
-	console.log(x - y);
+	console.log(a - b);
 	```
 		
 	</div></details>
 	
 	<br>
 	
-6. 変数 x、y に数値 10、2 を代入し、x、yの積を計算し、結果を表示してください。
+6. 4で定義したa、bの積を計算し、結果を表示してください。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 10;
-	var y = 2;
-	console.log(x * y);
+	console.log(a * b);
 	```
 		
 	</div></details>
 	
 	<br>
 	
-7. 変数 x、y に数値 10、2 を代入し、x、yの商を計算し、結果を表示してください。
+7. 4で定義したa、bの商を計算し、結果を表示してください。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 10;
-	var y = 2;
-	console.log(x / y);
+	console.log(a / b);
 	```
 		
 	</div></details>
 	
 	<br>
 	
-8. 変数 x、y に数値 10、3 を代入し、x、yの余りを計算し、結果を表示してください。
+8. 変数 c に数値 10、変数 d に数値 3 を代入し、c、dの余りを計算し、結果を表示してください。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 10;
-	var y = 3;
-	console.log(x % y);
+	let c = 10;
+	let d = 3;
+	console.log(c % d);
 	```
 		
 	</div></details>
 	
 	<br>
 	
-9. 変数 x、y に数値 11、13 を代入し、その積を変数 z に代入して z の値を表示するプログラムを作成しなさい。
+9. 変数 e に数値 11、変数 f に数値 13 を代入し、その積を変数 g に代入して g の値を表示するプログラムを作成しなさい。
 
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 11;
-	var y = 13;
-	var z = x * y;
-	console.log(z);
+	let e = 11;
+	let f = 13;
+	let g = e * f;
+	console.log(g);
 	```
 		
 	</div></details>
@@ -138,7 +136,7 @@
 	<details><summary>回答例</summary><div>
 		
 	```
-	var x = 2;
+	let x = 2;
 	console.log(x);
 	console.log(x * x);
 	console.log(x * x * x);
