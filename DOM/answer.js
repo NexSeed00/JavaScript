@@ -2,7 +2,7 @@
 let text1 = document.getElementById('q1-text');
 console.log(text1.textContent);
 
-//Q2
+// Q2
 let text2 = document.querySelector('#q2-text');
 text2.textContent = "変更しました!!!";
 
